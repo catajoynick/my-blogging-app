@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CUSOM CSS -->
+    <link rel="stylesheet" href="./css/addpost.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header-section">
+        </header>
+        <main class="main-section">
+            <nav>
+                <a href="index.html" class="button-back">Back</a>
+            </nav>
+            <div class="form-container">
+                <form>
+                    <input id="form-post-title" type="text" name="post-title" placeholder="Post Title" />
+                    <textarea id="form-post-content" name="post-content" placeholder="Post Content"></textarea>
+                    <div>
+                        <label>Choose Image</label>
+                        <input type="file" name="form-post-image" accept="image/*">
+                    </div>
+                    <button id="form-post-submit" type="button" onclick="submitNewPost()">Submit</button>
+                </form>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <p>Nick is under Nickskiejois trademark &trade;</p>
+            <p>&copy 2020</p>
+        </footer>
+    </div>
+
+    <script src="./js/new-post.js"></script>
+</body>
+
+</html>

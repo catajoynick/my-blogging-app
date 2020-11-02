@@ -1,0 +1,194 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+ /* 
+
+    My Color
+    #7aa39a
+ */
+ html {
+     scroll-behavior: smooth;
+
+ }
+
+ body {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto',
+         sans-serif;
+
+ }
+
+ .container {
+
+     width: 100%;
+ }
+
+ /* HEADER STYLES STARTS HERE */
+ .header-bar {
+
+     background-image: url("../images/eniko-kis-ZpPH2VO-xFc-unsplash.jpg");
+     background-size: cover;
+     background-position: center center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-bottom: .3em solid #7aa39a;
+     text-align: center;
+ }
+
+ .header-bar h1 {
+
+     margin-top: 100px;
+     font-size: 4rem;
+     text-shadow: 2px 2px#7aa39a;
+ }
+
+ .header-bar p {
+
+     font-size: 1.5rem;
+     text-shadow: 2px 2px#7aa39a;
+
+ }
+
+ .header-bar a {
+
+     margin: 3rem;
+     display: block;
+     text-decoration: none;
+     background-color: #7aa39a;
+     border-radius: .3em;
+     padding: 1em 2em;
+     color: black;
+     font-size: 120%;
+     box-shadow: .2em .2em .2em grey;
+     transition: all 0.2s ease;
+ }
+
+ .header-bar a:hover {
+
+     transform: translateY(-4px);
+ }
+
+ /* HEADER STYLE ENDS HERE */
+
+ /* MAIN SECTION STYLES STARTS HERE */
+ .main-section {
+     margin-top: 2rem;
+ }
+
+ .main-section .main-container {
+     margin: 0 5%;
+ }
+
+ /* MAIN SECTION STYLES ENDS HERE */
+
+ /* BLOG POST STYLES */
+
+ .blog-section {
+
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-evenly;
+ }
+
+ .blog-post {
+
+     text-align: center;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     flex-flow: column;
+     width: 250px;
+     border: 1px solid black;
+     box-shadow: 2px 2px .1em black;
+     padding: 1rem .5rem;
+     margin: .5em;
+     transition: all 0.2s ease;
+     position: relative;
+ }
+
+ .blog-post:hover {
+     transform: translate3d(0, -3px, 0);
+     box-shadow: 2px 2px .3em black;
+     cursor: pointer;
+ }
+
+
+
+ .blog-post .post-image {
+
+     border: 1px solid black;
+     border-radius: 50%;
+     height: 200px;
+     width: 200px;
+ }
+
+ .blog-post .post-details {
+
+     height: 150px;
+     text-align: left;
+     text-overflow: ellipsis;
+
+     overflow: hidden;
+ }
+
+ .blog-post .post-read-more {
+
+     display: block;
+     text-decoration: none;
+     padding: .5em 1em;
+     background-color: #7aa39a;
+     border-radius: .2em;
+     color: black;
+     margin-top: 2em;
+ }
+
+ .blog-post .post-read-more:hover {
+
+     color: white;
+ }
+
+ /* BLOG POST STYLES */
+ /* START:ADD NEW POST BUTTON */
+
+ .add-new-post {
+
+     border-radius: 50%;
+     position: absolute;
+     right: 5%;
+     bottom: 50%;
+     width: 50px;
+     height: 50px;
+     background-color: #7aa39a;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .add-new-post a {
+     text-decoration: none;
+     color: white;
+     font-size: 2rem;
+     transition: all 0.2s ease;
+ }
+
+ .add-new-post a:hover {
+
+     transform: translate3d(0, -4px, 0);
+ }
+
+ /* END: ADD NEW POST BUTTON*/
+ .footer {
+
+     margin-top: 2rem;
+     height: 200px;
+     background-color: black;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     border-bottom: 2px solid #7aa39a;
+ }

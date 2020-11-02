@@ -1,0 +1,96 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+ html,
+ body {
+     margin: 0;
+     padding: 0;
+     scroll-behavior: smooth;
+     font-family: 'Roboto',
+         sans-serif;
+ }
+
+ .container {
+
+     text-align: center;
+ }
+
+ /* HEADER STYLE STARTS HERE */
+ .header-section {
+
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 450px;
+ }
+
+ /* HEADER STYLE ENDS HERE */
+
+
+ /* MAIN SECTION STYLES STARTS HERE */
+
+ .main-section .button-back {
+
+     margin: 2rem;
+     display: inline-block;
+     padding: .75em 2em;
+     background-color: #7aa39a;
+     border-radius: .5em;
+     text-decoration: none;
+     color: white;
+     box-shadow: .2em .2em .2em grey;
+     transition: all 0.2s ease;
+
+ }
+
+ .main-section .button-back:hover {
+
+     transform: translateY(-4px);
+ }
+
+ .main-section .blog-post {
+
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .main-section .blog-post h1 {
+
+     font-size: 2.5rem;
+
+ }
+
+ .main-section .blog-post-date {
+
+     color: grey;
+     margin: 2em 0;
+ }
+
+ .main-section .blog-post-content {
+
+     padding: .5em;
+     width: 55%;
+     border: 1px solid black;
+     text-align: left;
+     line-height: 1.4;
+ }
+
+ /* MAIN SECTION STYLE ENDS HERE */
+
+ /* FOOTER STYLE STARTS HERE */
+ .footer {
+
+     margin-top: 2em;
+     height: 200px;
+     background-color: black;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     justify-content: center;
+     color: white;
+ }
+
+ /* FOOTER STYLE ENDS HERE */
